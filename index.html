@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Slideshow</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="slideshow" class="slideshow">
+            <img src="https://i.ytimg.com/vi/K-1YR8lm198/maxresdefault.jpg" alt="Titanic 2">
+            <img src="https://i0.wp.com/www.comicsuniverse.it/wp-content/uploads/2024/04/avengers-5-confermato-ufficiale-film-marvel-universe-v3-698476-1280x720-1.webp?fit=1280%2C720&ssl=1" alt="Avengers 5">
+            <img src="https://i.ytimg.com/vi/vNSrSHA7s14/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB004lyLjWU9rMLyT2GqlzlzZcykg" alt="Iron Man 2">
+            <img src="https://filmmomaticreviews.wordpress.com/wp-content/uploads/2017/12/jumanji-welcome-to-the-jungle-movie-trailer-2017.jpg" alt="Jumanji">
+            <img src="https://i0.wp.com/leahcsmovies.com/wp-content/uploads/2019/07/TLK-2019-1.jpg?fit=1600%2C900&ssl=1" alt="THE LION KING">
+        </div>
+        <div class="controls">
+            <button id="prevButton">Previous</button>
+            <button id="playPauseButton">Pause</button>
+            <button id="nextButton">Next</button>
+        </div>
+        <div class="add-image">
+            <input type="text" id="imageURL" placeholder="Image URL" />
+            <input type="number" id="imageIndex" placeholder="Position (0-based)" />
+            <button id="addImageButton">Add Image</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
